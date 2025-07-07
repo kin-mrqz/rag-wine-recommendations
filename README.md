@@ -1,4 +1,4 @@
-# 🍷 RAG Wine Recommendation Pipeline
+# RAG Wine Recommendation Pipeline
 
 This project implements a **Retrieval-Augmented Generation (RAG)** pipeline for personalized wine recommendations using **DeepSeek**, **Hugging Face embeddings**, and **Chroma vector store**.
 
@@ -8,7 +8,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline for 
 
 This pipeline takes a user's wine preference query and returns relevant wine recommendations from a dataset using vector similarity and sommelier knowledge.
 
-### 🔄 Core Workflow
+### Core Workflow
 
 1. **Vectorize Wines**
    - Load `wine_data.csv`
@@ -28,7 +28,7 @@ This pipeline takes a user's wine preference query and returns relevant wine rec
 
 ---
 
-## 🧪 Current Setup
+## Current Setup
 
 - **Embeddings:** Hugging Face local models
 - **RAG Model:** DeepSeek (via API calls)
@@ -37,7 +37,7 @@ This pipeline takes a user's wine preference query and returns relevant wine rec
 
 ---
 
-## ⚙️ Optimization Plan
+## ⚙Optimization Plan
 
 - **Speed Optimization**
   - Replace taste profile generation with **SpaCy-based NLP parser**
@@ -50,14 +50,7 @@ This pipeline takes a user's wine preference query and returns relevant wine rec
 
 ---
 
-## 🚀 Example Query
-
-
-Wine 1: Alain Chavy  Puligny  Montrachet 202
-Wine 2: Aldeneyck Herenlaak Chardonnay Maseik, Belgium 2020
-WIne 3: Anne et Jean-Francois Ganevat Cotes du Jure La Barraque Savagnin 2020
-Wine 4: Armand Heitz Saint Aubin 1er cru murgers dent de chien 2019
-Wine 5: Billaud Simon Chablis Tete dOr 2021
+## Example Query
 > _“What wine goes well with spicy Thai green curry with coconut milk?”_
 
 **Output:**
